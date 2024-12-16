@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+  /* text-align: right; */
+}
+
+.retning {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1.8s linear;
+  }
+}
+.Background{
+  background-color: #58546B;
+  min-height: 100vh;
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  /* 58546B */
+  /* 755B5B */
+  /* display: flex; */
+  
+  
+}
+
+/* Header elementer */
+.header{
+  background-color: #2F2E36;
+  color: #FFFFFF;
+  min-height: 5vh;
+  width: 100%;
+  position: fixed;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+  
+}
+
+.Top-Tekst{
+  text-align: right;
+  color: #637290;
+  font-size: 3vh;
+  text-indent: 10px;
+  
+} 
+/* for span */
+Top-Meny-Link{
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+
+  color: #2F2E36; 
+  
+  padding-left: 2vh; 
+  padding-right: 2vh;
+
+  padding-top: 0.7vh; 
+  padding-bottom: 0.7vh;
+}
+span-Top {
+  padding-right: 4.6vh;
+}
+/* sluten på heder elementer  */
+
+
+
+
+
+/* p {
+  white-space: pre;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+} */
+
+
+/* bilde style */
+
+.Hoved-Bilde{
+  background-repeat: no-repeat;
+  /* display: flex; */
+  
+
+  margin-left: auto;
+  margin-right: auto;
+  width:90vh; 
+  height:80vh;
+
+  /* border: 6px solid #f9f9f9; */
+  /* border: 5vh solid #2F2E36; */
+  box-shadow: 0px 0px 0px 1vh rgba(0,0,0,0.5);
+  /* outline-opasety: 20%; */
+
+  border-radius: 30%;
+
+
+  transition: background-image  4s image ease in out; /* denne er for sennere*/
+  
+}
+.Bilde-Padding{
+  padding-left: 16vh;
+  padding-right: 16vh;
+  display: flex;
+}
+/* sluten på bilde style */
+/* .side{
+  display: flex;
+} */
+
+
+
+
+/* hovedside Tekst */
+
+.Side-Tekst{
+  word-wrap: break-word;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  /* display: flex; */
+  flex-direction: column;
+ } 
+
+ .Side-Header{
+  background-color: #2F2E36;
+  text-align: center;
+  color: #637290;
+  min-height: 5vh;
+  width: 80vh;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+  direction: itr;
+}
+.Tekst-Boks{
+  background-color: #637290;
+  text-align: center;
+  color: #2F2E36;
+
+  min-height: 10vh;
+  width: 45vh;
+
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+  padding-right: 5vh;
+  
+  
+
+  box-shadow: 0px 0px 0px 0.2vh rgba(0,0,0,0.5);
+  border-radius: 1vh;
+}
+.Tekst-Boks-Små{
+  /* overflow-y: scroll; */
+  background-color: #637290;
+  text-align: center;
+  color: #2F2E36;
+
+  min-height: 5vh;
+  width: 20vh;
+
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+  padding-right: 5vh;
+  
+  
+
+  box-shadow: 0px 0px 0px 0.2vh rgba(0,0,0,0.5);
+  border-radius: 1vh;
+}
+
+.Tekst-Boks-Stor{
+  /* word-break: break-all; */
+  overflow-y: scroll;
+  background-color: #637290;
+  text-align: center;
+  color: #2F2E36;
+  max-height: 60vh;
+  min-height: 25vh;
+  width: 80vh;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+
+  
+  white-space: nowrap; /* Prevents text from breaking unexpectedly */
+  writing-mode: horizontal-tb; /* Ensures horizontal left-to-right writing */
+
+}
+
+.Display-flex{
+  display: flex;
+   padding-top: 2vh;
+}
+
+.LIT-Padding{
+  display: flex;
+  padding-top: 2vh;
+  Padding-left: 27vh;
+  /* Padding-right: 9vh; */
+  grid-column-gap: 5vh;
+}
+
+/* sluten på hovedside Tekst */
+
+
+
+
+
+
+
+
+
+
+
+.text-box {
+  display: inline-block; /* Gjør at boksen passer til tekstens størrelse */
+  background-color: lightblue; /* Fargen på boksen */
+  color: black; /* Tekstfarge */
+  padding: 15px 20px; /* Indre marg */
+  border: 2px solid #333; /* Ramme rundt boksen */
+  border-radius: 10px; /* Runde hjørner */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Skygge for dybde */
+  margin: 20px; /* Gir litt avstand rundt boksen */
+}
+
+
+.App-header {
+  /* background-color: #755B5B; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
