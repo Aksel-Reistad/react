@@ -1,11 +1,14 @@
 {
-    "version1": {
-      "content": "Content for Version 1",
-      "imagePath": null
-    },
-    "version2": {
-      "content": "Content for Version 2",
-      "imagePath": null
-    }
+  "version1": {
+    "title": "fin title",
+    "content": "reknuf etted"
+  },
+  "version2": {
+    "title": "Default Title",
+    "content": "<br>"
+  },
+  "version3": {
+    "title": "Default Title",
+    "content": "qqqqqqqqqqqDefault contentq"
   }
-  
+}
