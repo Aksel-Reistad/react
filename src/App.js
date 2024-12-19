@@ -7,15 +7,11 @@ import { versions } from "./Kode.js/VersionData.js";
 import "./App.css";
 
 function App() {
-  const [activeVersion, setActiveVersion] = useState("version1"); // State for active version
+  const [activeVersion, setActiveVersion] = useState(); // State for active version
 
   return (
     <header className="Background">
       <TopBar />
-      <br />
-      <br />
-      <br />
-      <br />
 
       {/* Dropdown to switch between versions */}
       <div>

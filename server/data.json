@@ -1,14 +1,27 @@
 {
-  "version1": {
+  "den første": {
     "title": "fin title",
-    "content": "reknuf etted"
+    "content": "reknuf etted",
+    "image": "/uploads/sample1.jpg"
   },
   "version2": {
     "title": "Default Title",
-    "content": "<br>"
+    "content": "<br>",
+    "image": "/uploads/sample2.jpg"
   },
   "version3": {
     "title": "Default Title",
-    "content": "qqqqqqqqqqqDefault contentq"
+    "content": "qqqqqqqqqqqDefault contentq",
+    "image": null
+  },
+  "version4": {
+    "title": "Default Title",
+    "content": "aaaaaaddddsssssssss",
+    "image": null
+  },
+  "version1": {
+    "title": "Default Title",
+    "content": "wwwwwwwwwwww",
+    "image": null
   }
 }
