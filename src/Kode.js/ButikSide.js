@@ -82,12 +82,12 @@ import BildeKomponent from "./BildeKomponent";
 import TekstKomponent from "./TekstKomponent";
 
 function ButikSide({ activeVersion }) {
-  const saveData = async ({ version, title, content }) => {
+  const saveData = async ({ version, title, content, imageUrl}) => {
     try {
       const response = await fetch("http://localhost:5000/api/save", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ version, title, content }),
+        body: JSON.stringify({ version, title, content, imageUrl}),
       });
       return await response.json();
     } catch (error) {
@@ -97,7 +97,7 @@ function ButikSide({ activeVersion }) {
 
   return (
     <div className="Display-flex">
-      <BildeKomponent />
+      <BildeKomponent activeVersion={activeVersion} saveData={saveData} />
       <TekstKomponent activeVersion={activeVersion} saveData={saveData} />
     </div>
   );
